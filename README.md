@@ -8,7 +8,6 @@ Personal agent skills.
 - `distill-sentence` — Reduce the previous message to one sentence, or up to N sentences when given a number.
 - `disk-cleanup` — Find disk-space cleanup candidates safely; inspect first and delete only with explicit approval.
 - `asd-ste100` — Reminder to reply in ASD-STE100 Simplified Technical English: short, one action per step, ADHD-readable.
-- `preview-qa` — Focused QA for deployed previews, including email sign-in and cross-browser recovery.
 
 In Claude Code, invoke the latter with `/distill-sentence` or `/distill-sentence 3`. In Pi, use `/skill:distill-sentence` or `/skill:distill-sentence 3`.
 
@@ -20,4 +19,4 @@ Run:
 ./install.sh
 ```
 
-This links each directory under `skills/` into `~/.agents/skills/`, `~/.claude/skills/`, and `~/.codex/skills/`.
+This links each directory under `skills/` into both `~/.agents/skills/` and `~/.claude/skills/`.

@@ -7,7 +7,7 @@ for skill in "$repo_dir"/skills/*; do
   [[ -d "$skill" ]] || continue
   name="$(basename "$skill")"
 
-  for target_root in "$HOME/.agents/skills" "$HOME/.claude/skills" "$HOME/.codex/skills"; do
+  for target_root in "$HOME/.agents/skills" "$HOME/.claude/skills"; do
     mkdir -p "$target_root"
     target="$target_root/$name"
 
