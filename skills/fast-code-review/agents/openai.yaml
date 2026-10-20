@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fast Code Review"
+  short_description: "Prioritized files and lines for faster reviews"
+  default_prompt: "Use $fast-code-review to show me the files and line ranges I should review first."
