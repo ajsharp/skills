@@ -5,6 +5,7 @@ Personal agent skills.
 ## Skills
 
 - `sss` — Shorten, summarize, and simplify a message.
+- `thread-summary` — Summarize the current conversation, including decisions, status, open questions, and next steps.
 - `distill-sentence` — Reduce the previous message to one sentence, or up to N sentences when given a number.
 - `disk-cleanup` — Find disk-space cleanup candidates safely; inspect first and delete only with explicit approval.
 - `asd-ste100` — Reminder to reply in ASD-STE100 Simplified Technical English: short, one action per step, ADHD-readable.
